@@ -1,0 +1,65 @@
+# hl7.fhir.uv.pacific.core#0.1.0: Fiji Core Implementation Guide(en)
+
+## Pages
+
+* [](index.md)
+* [Contributing to the Fiji Core IG](gettingstarted.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Heart Rate LOINC Codes](ValueSet-heart-rate-loinc.md)
+* [LOINC ValueSet](ValueSet-loinc-vs.md)
+
+### Complex-type Profiles
+
+* [Pacific Address](StructureDefinition-pacific-address.md)
+* [Pacific HumanName](StructureDefinition-pacific-humanname.md)
+
+### Resource Profiles
+
+* [MyPatient](StructureDefinition-MyPatient.md)
+* [Pacific Allergy/Intolerance](StructureDefinition-pacific-allergy-intolerance.md)
+* [Pacific Condition](StructureDefinition-pacific-condition.md)
+* [Pacific Observation](StructureDefinition-pacific-observation.md)
+* [Pacific Healthcare Organization](StructureDefinition-pacific-organization.md)
+* [Pacific Patient](StructureDefinition-pacific-patient.md)
+* [Pacific Practitioner Role](StructureDefinition-pacific-practitioner-role.md)
+* [Pacific Practitioner](StructureDefinition-pacific-practitioner.md)
+* [Blood Pressure Observation (Pacific region)](StructureDefinition-pacific-vital-blood-pressure.md)
+* [BMI Vitals (Pacific region)](StructureDefinition-pacific-vital-bmi.md)
+* [Body Temperature Vitals (Pacific region)](StructureDefinition-pacific-vital-body-temperature.md)
+* [Heart Rate Vitals (Pacific region)](StructureDefinition-pacific-vital-heart-rate.md)
+* [Height Vitals (Pacific region)](StructureDefinition-pacific-vital-height.md)
+* [Oxygen Saturation Vitals (Pacific region)](StructureDefinition-pacific-vital-oxygen-saturation.md)
+* [Respiratory Rate Vitals (Pacific region)](StructureDefinition-pacific-vital-respiratory-rate.md)
+* [Weight Vitals (Pacific region)](StructureDefinition-pacific-vital-weight.md)
+
+### Extensions
+
+* [Island](StructureDefinition-pacific-address-island.md)
+* [Village](StructureDefinition-pacific-address-village.md)
+* [Pacific Clan Affiliation](StructureDefinition-pacific-clan-affiliation.md)
+
+### ImplementationGuides
+
+* [Fiji Core Implementation Guide](ImplementationGuide-hl7.fhir.uv.pacific.core.md)
+
+### NamingSystems
+
+* [FijiOrganizationIdentifier](NamingSystem-FijiOrganizationIdentifier.md)
+* [FijiPatientIdentifier](NamingSystem-FijiPatientIdentifier.md)
+* [FijiPractitionerRegistration](NamingSystem-FijiPractitionerRegistration.md)
+
+### Examples
+
+* [Suva Divisional Hospital (Organization)](Organization-PacificHospitalExample.md)
+* [PacificPatientExample1 (Patient)](Patient-PacificPatientExample1.md)
+* [PacificPatientExample2 (Patient)](Patient-PacificPatientExample2.md)
+* [PacificPatientFijiITaukei (Patient)](Patient-PacificPatientFijiITaukei.md)
+* [PacificPatientFijiIndo (Patient)](Patient-PacificPatientFijiIndo.md)
+* [PatientExample (Patient)](Patient-PatientExample.md)
+* [PacificPractitionerExample (Practitioner)](Practitioner-PacificPractitionerExample.md)
+* [PacificPractitionerRoleExample (PractitionerRole)](PractitionerRole-PacificPractitionerRoleExample.md)

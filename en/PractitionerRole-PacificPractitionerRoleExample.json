@@ -1,0 +1,31 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "PacificPractitionerRoleExample",
+  "meta" : {
+    "profile" : ["https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-practitioner-role"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole PacificPractitionerRoleExample</b></p><a name=\"PacificPractitionerRoleExample\"> </a><a name=\"hcPacificPractitionerRoleExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pacific-practitioner-role.html\">Pacific Practitioner Role</a></p></div><p><b>period</b>: 2023-01-01 --&gt; (ongoing)</p><p><b>practitioner</b>: <a href=\"Practitioner-PacificPractitionerExample.html\">Practitioner Leilani Tupua (official)</a></p><p><b>organization</b>: <a href=\"Organization-PacificHospitalExample.html\">Organization Suva Divisional Hospital</a></p><p><b>code</b>: <span title=\"Codes:\">General Practitioner</span></p><p><b>specialty</b>: <span title=\"Codes:\">Family Medicine</span></p><p><b>telecom</b>: <a href=\"tel:+685123456\">+685123456</a></p></div>"
+  },
+  "period" : {
+    "start" : "2023-01-01"
+  },
+  "practitioner" : {
+    "reference" : "Practitioner/PacificPractitionerExample"
+  },
+  "organization" : {
+    "reference" : "Organization/PacificHospitalExample"
+  },
+  "code" : [{
+    "text" : "General Practitioner"
+  }],
+  "specialty" : [{
+    "text" : "Family Medicine"
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+685123456"
+  }]
+}

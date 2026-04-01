@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/observation-category,4.0.1,draft,"2.16.840.1.113883.4.642.3.403",ObservationCategoryCodes,Observation Category Codes,"Observation Category codes.","StructureDefinition/pacific-observation","THO"
+https://healthinfoservices.net/pacific-core/ValueSet/heart-rate-loinc,0.1.0,draft,,HeartRateVS,Heart Rate LOINC Codes,"LOINC codes for heart rate measurements, spot or average.","StructureDefinition/pacific-vital-heart-rate","LOINC"
+https://healthinfoservices.net/pacific-core/ValueSet/loinc-vs,0.1.0,draft,,LoincVS,LOINC ValueSet,"ValueSet for LOINC codes as temporary filler until Fiji/Pacific valuueset is developed.","StructureDefinition/pacific-observation","LOINC"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="FijiOrganizationIdentifier"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: NamingSystem FijiOrganizationIdentifier</b></p><a name="FijiOrganizationIdentifier"> </a><a name="hcFijiOrganizationIdentifier"> </a><h3>Summary</h3><table class="grid"><tr><td>Defining URL</td><td>https://healthinfoservices.net/pacific-core/NamingSystem/FijiOrganizationIdentifier</td></tr><tr><td>Version</td><td>0.1.0</td></tr><tr><td>Name</td><td>FijiOrganizationIdentifier</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>NamingSystem for organization identifiers in Fiji, using a simulated national identifier system for demonstration purposes.</p>
+</div></td></tr></table><h3>Identifiers</h3><table class="grid"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>http://health.gov.fj/fhir/identifier/organization</td><td>true</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url">
+    <valueUri value="https://healthinfoservices.net/pacific-core/NamingSystem/FijiOrganizationIdentifier"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <name value="FijiOrganizationIdentifier"/>
+  <status value="active"/>
+  <kind value="identifier"/>
+  <date value="2026-03-31"/>
+  <contact>
+    <name value="Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.healthinfoservices.net"/>
+    </telecom>
+  </contact>
+  <description value="NamingSystem for organization identifiers in Fiji, using a simulated national identifier system for demonstration purposes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://health.gov.fj/fhir/identifier/organization"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>

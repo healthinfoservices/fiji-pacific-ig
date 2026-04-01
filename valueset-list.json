@@ -1,0 +1,20 @@
+{
+  "codeSystems" : [{
+    "url" : "https://healthinfoservices.net/pacific-core/ValueSet/heart-rate-loinc",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "HeartRateVS",
+    "title" : "Heart Rate LOINC Codes",
+    "description" : "LOINC codes for heart rate measurements, spot or average.",
+    "systems" : ["http://loinc.org"]
+  },
+  {
+    "url" : "https://healthinfoservices.net/pacific-core/ValueSet/loinc-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "LoincVS",
+    "title" : "LOINC ValueSet",
+    "description" : "ValueSet for LOINC codes as temporary filler until Fiji/Pacific valuueset is developed.",
+    "systems" : ["http://loinc.org"]
+  }]
+}

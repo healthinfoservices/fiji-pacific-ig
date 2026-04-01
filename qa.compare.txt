@@ -1,0 +1,148 @@
+PacificCore : Validation Results
+=========================================
+
+err = 5, warn = 39, info = 25
+$--
+Generated $--. FHIR version $-- for hl7.fhir.uv.pacific.core#$-- (canonical = https://healthinfoservices.net/pacific-core)
+ Build Errors : 0 / 4 / 0
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.pacific.core : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/NamingSystem-FijiOrganizationIdentifier : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/NamingSystem-FijiPatientIdentifier : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/NamingSystem-FijiPractitionerRegistration : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Organization-PacificHospitalExample : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientExample1 : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientExample2 : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientFijiITaukei : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientFijiIndo : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Practitioner-PacificPractitionerExample : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/PractitionerRole-PacificPractitionerRoleExample : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address : 0 / 2 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address-island : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address-village : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-clan-affiliation : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-condition : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-humanname : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-observation : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-organization : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-patient : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-practitioner : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-practitioner-role : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure : 2 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-bmi : 0 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature : 0 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate : 0 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-height : 2 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation : 0 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate : 0 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-weight : 0 / 3 / 4
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ValueSet-heart-rate-loinc : 1 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ValueSet-loinc-vs : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.pacific.core.json ==
+== fsh-generated/resources/NamingSystem-FijiOrganizationIdentifier.json ==
+== fsh-generated/resources/NamingSystem-FijiPatientIdentifier.json ==
+== fsh-generated/resources/NamingSystem-FijiPractitionerRegistration.json ==
+== fsh-generated/resources/Organization-PacificHospitalExample.json ==
+== fsh-generated/resources/Patient-PacificPatientExample1.json ==
+== fsh-generated/resources/Patient-PacificPatientExample2.json ==
+== fsh-generated/resources/Patient-PacificPatientFijiITaukei.json ==
+== fsh-generated/resources/Patient-PacificPatientFijiIndo.json ==
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/Practitioner-PacificPractitionerExample.json ==
+WARNING: Practitioner/PacificPractitionerExample: Practitioner.identifier[0].system: No definition could be found for URL value 'http://health.gov.ws/practitioner-registration'
+== fsh-generated/resources/PractitionerRole-PacificPractitionerRoleExample.json ==
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated/resources/StructureDefinition-pacific-address.json ==
+WARNING: StructureDefinition/pacific-address: StructureDefinition.snapshot.element[5].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0'
+WARNING: StructureDefinition/pacific-address: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0'
+== fsh-generated/resources/StructureDefinition-pacific-address-island.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-address-island'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pacific-address-village.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-address-village'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-allergy-intolerance'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-clan-affiliation.json ==
+== fsh-generated/resources/StructureDefinition-pacific-condition.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-condition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-humanname.json ==
+== fsh-generated/resources/StructureDefinition-pacific-observation.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-organization.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-patient.json ==
+== fsh-generated/resources/StructureDefinition-pacific-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-pacific-practitioner-role.json ==
+== fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure.json ==
+WARNING: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+ERROR: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Blood pressure panel' for http://loinc.org#85354-9. Valid display is one of 3 choices: 'Blood pressure panel with all children optional' (en-US), 'Blood pressure panel with all children optional' (en-US) or 'BP pnl w all optional' (en-US) (for the language(s) 'en')
+WARNING: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+ERROR: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Blood pressure panel' for http://loinc.org#85354-9. Valid display is one of 3 choices: 'Blood pressure panel with all children optional' (en-US), 'Blood pressure panel with all children optional' (en-US) or 'BP pnl w all optional' (en-US) (for the language(s) 'en')
+INFORMATION: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-blood-pressure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-bmi.json ==
+WARNING: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+WARNING: StructureDefinition/pacific-vital-bmi: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-bmi: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+INFORMATION: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-bmi'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature.json ==
+WARNING: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+WARNING: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+INFORMATION: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-body-temperature'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate.json ==
+WARNING: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+WARNING: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+INFORMATION: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-heart-rate'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-height.json ==
+WARNING: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+ERROR: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Height' for http://loinc.org#8302-2. Valid display is one of 3 choices: 'Body height' (en-US), 'Body height' (en-US) or 'Body height' (en-US) (for the language(s) 'en')
+WARNING: StructureDefinition/pacific-vital-height: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-height: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+ERROR: StructureDefinition/pacific-vital-height: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Height' for http://loinc.org#8302-2. Valid display is one of 3 choices: 'Body height' (en-US), 'Body height' (en-US) or 'Body height' (en-US) (for the language(s) 'en')
+INFORMATION: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-height'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation.json ==
+WARNING: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+WARNING: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+INFORMATION: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-oxygen-saturation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate.json ==
+WARNING: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+WARNING: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+INFORMATION: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-respiratory-rate'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-weight.json ==
+WARNING: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+WARNING: StructureDefinition/pacific-vital-weight: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/R4/codesystem-observation-category.html' could not be found, so the code cannot be validated
+INFORMATION: StructureDefinition/pacific-vital-weight: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0].system: A definition could not be found for Canonical URL 'https://hl7.org/fhir/R4/codesystem-observation-category.html' but a definition can be found for 'http://hl7.org/fhir/R4/codesystem-observation-category.html' - change from https: to http:
+INFORMATION: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-weight'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-heart-rate-loinc.json ==
+ERROR: ValueSet/heart-rate-loinc: ValueSet.compose.include[0].concept[1]: The code '8867-6' is not valid in the system http://loinc.org (Unknown code '8867-6' in the CodeSystem 'http://loinc.org' version '2.81')
+WARNING: ValueSet/heart-rate-loinc: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-loinc-vs.json ==
+WARNING: ValueSet/loinc-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

@@ -1,0 +1,169 @@
+{
+  "package": "hl7.fhir.uv.pacific.core",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [
+    {
+      "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-address-island",
+      "title": "Island",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-address-village",
+      "title": "Village",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-clan-affiliation",
+      "title": "Pacific Clan Affiliation",
+      "types": [
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string"
+      ]
+    }
+  ],
+  "profiles": {
+    "Patient": [
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-patient",
+        "title": "Pacific Patient"
+      }
+    ],
+    "AllergyIntolerance": [
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-allergy-intolerance",
+        "title": "Pacific Allergy/Intolerance"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-condition",
+        "title": "Pacific Condition"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-blood-pressure",
+        "title": "Blood Pressure Observation (Pacific region)"
+      },
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-bmi",
+        "title": "BMI Vitals (Pacific region)"
+      },
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-body-temperature",
+        "title": "Body Temperature Vitals (Pacific region)"
+      },
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-heart-rate",
+        "title": "Heart Rate Vitals (Pacific region)"
+      },
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-height",
+        "title": "Height Vitals (Pacific region)"
+      },
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-oxygen-saturation",
+        "title": "Oxygen Saturation Vitals (Pacific region)"
+      },
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-respiratory-rate",
+        "title": "Respiratory Rate Vitals (Pacific region)"
+      },
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-vital-weight",
+        "title": "Weight Vitals (Pacific region)"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-organization",
+        "title": "Pacific Healthcare Organization"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-practitioner",
+        "title": "Pacific Practitioner"
+      }
+    ],
+    "PractitionerRole": [
+      {
+        "url": "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-practitioner-role",
+        "title": "Pacific Practitioner Role"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
+      "NamingSystem"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version": [
+      "NamingSystem"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/geolocation": [
+      "Address"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-address-island": [
+      "Address"
+    ],
+    "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-address-village": [
+      "Address"
+    ],
+    "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-clan-affiliation": [
+      "Patient",
+      "Practitioner"
+    ]
+  }
+}

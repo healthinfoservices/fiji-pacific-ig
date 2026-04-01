@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "loinc-vs",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet loinc-vs</b></p><a name=\"loinc-vs\"> </a><a name=\"hcloinc-vs\"> </a><ul><li>Include all codes defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li></ul></div>"
+  },
+  "url" : "https://healthinfoservices.net/pacific-core/ValueSet/loinc-vs",
+  "version" : "0.1.0",
+  "name" : "LoincVS",
+  "title" : "LOINC ValueSet",
+  "status" : "draft",
+  "date" : "2026-04-01T06:33:29+00:00",
+  "contact" : [{
+    "name" : "Support",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.healthinfoservices.net"
+    }]
+  }],
+  "description" : "ValueSet for LOINC codes as temporary filler until Fiji/Pacific valuueset is developed.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org"
+    }]
+  }
+}

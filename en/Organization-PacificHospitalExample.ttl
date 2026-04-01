@@ -1,0 +1,42 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://healthinfoservices.net/pacific-core/Organization/PacificHospitalExample> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PacificHospitalExample"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: Organization PacificHospitalExample</b></p><a name=\"PacificHospitalExample\"> </a><a name=\"hcPacificHospitalExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p><b>identifier</b>: <a href=\"NamingSystem-FijiOrganizationIdentifier.html\" title=\"NamingSystem for organization identifiers in Fiji, using a simulated national identifier system for demonstration purposes.\">FijiOrganizationIdentifier</a>/FJ-HOSP-SUH-001</p><p><b>name</b>: Suva Divisional Hospital</p><p><b>telecom</b>: <a href=\"tel:+6793313444\">+6793313444</a>, <a href=\"mailto:info@suvahospital.gov.fj\">info@suvahospital.gov.fj</a></p><p><b>address</b>: Amy Street Suva FJ </p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://health.gov.fj/fhir/identifier/organization"^^xsd:anyURI ;
+       fhir:l <http://health.gov.fj/fhir/identifier/organization>
+     ] ;
+     fhir:value [ fhir:v "FJ-HOSP-SUH-001" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Suva Divisional Hospital"] ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+6793313444" ] ;
+     fhir:use [ fhir:v "work" ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "info@suvahospital.gov.fj" ] ;
+     fhir:use [ fhir:v "work" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "Amy Street" ] ) ;
+     fhir:city [ fhir:v "Suva" ] ;
+     fhir:district [ fhir:v "Central Division" ] ;
+     fhir:country [ fhir:v "FJ" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

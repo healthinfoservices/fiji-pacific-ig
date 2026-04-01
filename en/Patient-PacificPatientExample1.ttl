@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://healthinfoservices.net/pacific-core/Patient/PacificPatientExample1> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PacificPatientExample1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-patient"^^xsd:anyURI ;
+       fhir:l <https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-patient>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: Patient PacificPatientExample1</b></p><a name=\"PacificPatientExample1\"> </a><a name=\"hcPacificPatientExample1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pacific-patient.html\">Pacific Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Taviri Male, DoB: 1990-04-12 ( http://health.example.org/fhir/identifier#123456789)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Alternate names (see the one above)\">Alt. Name:</td><td colspan=\"3\">Michael Taviri Kalo(Official)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Represents clan, tribe, lineage, or descent-based group affiliation.#xA;#xA;This is a demographic identity attribute.#xA;It is not a syntactic component of a name.\"><a href=\"StructureDefinition-pacific-clan-affiliation.html\">Pacific Clan Affiliation</a></td><td colspan=\"3\"><span title=\"Codes:\">Nakamal Vaturanga</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-clan-affiliation"^^xsd:anyURI ;
+       fhir:l <https://healthinfoservices.net/pacific-core/StructureDefinition/pacific-clan-affiliation>
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:text [ fhir:v "Nakamal Vaturanga" ]
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://health.example.org/fhir/identifier"^^xsd:anyURI ;
+       fhir:l <http://health.example.org/fhir/identifier>
+     ] ;
+     fhir:value [ fhir:v "123456789" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:text [ fhir:v "Michael Taviri Kalo" ] ;
+     fhir:family [ fhir:v "Kalo" ] ;
+     fhir:given ( [ fhir:v "Michael" ] [ fhir:v "Taviri" ] )
+  ] [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:text [ fhir:v "Taviri" ] ;
+     fhir:given ( [ fhir:v "Taviri" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1990-04-12"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+
