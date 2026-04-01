@@ -1,0 +1,71 @@
+# ╭─────────────────────────          ImplementationGuide Notes         ───────────────────────────╮
+# | This is an initial configuration file for the Pacific Base IG.                                 |
+# | The id, packageId, canonical URL, name, etc. need to be validated/agreed by the Fiji IG team.  |
+# | The canonical URL will need to be changed once a suitable URL is agreed upon and available.    |
+# | The menu structure will be customized as required to fit the content of the IG.                |
+# | The version should be updated for each release of the IG, in accord with versioning policy.    |
+# | Keep the fhirVersion and instanceOptions settings unless specific reasons to change them.      |
+# ╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.fhir.uv.pacific.core
+packageId: hl7.fhir.uv.pacific.core
+canonical: https://healthinfoservices.net/pacific-core
+name: PacificCore
+title: Fiji Core Implementation Guide
+description: Implementation Guide for Fiji FHIR Interopeerability with base definitions applicable to the wider South Pacific region.
+status: draft # draft | active | retired | unknown
+version: 0.1.0
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: CC0-1.0 # https://creativecommons.org/publicdomain/zero/1.0/
+
+# publisher:
+#  name: Example Publisher
+#  url: http://example.org/example-publisher
+#  email: test@example.org
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
+# │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
+# │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
+# │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
+# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
+# │ property below.                                                                                │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+# menu structure of the IG
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+
+# contact
+contact:
+  - name: Support
+    telecom:
+      - system: url
+        value: https://www.healthinfoservices.net
+
+
+
+# leave these settings as is unless you know what you're doing and have a reason to change them
+fhirVersion: 4.0.1
+instanceOptions:
+  manualSliceOrdering: true
+
+# dependencies:
+#   hl7.fhir.xx.xx: 9.9.9
+#   hl7.fhir.xx.subxx:
+#     id: xxxx
+#     uri: http://hl7.org/fhir/xxxxx
+#     version: 9.9.9
+
+pages:
+  index.md:
+    title: Fiji Core Implementation Guide
+  gettingstarted.md:
+    title: Contributing to the Fiji Core IG
+#   implementation.xml:
+#   examples.xml:
+#     title: Examples Overview
+#     simpleExamples.xml:
+#     complexExamples.xml:
+
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"

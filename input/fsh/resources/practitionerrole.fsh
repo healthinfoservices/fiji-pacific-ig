@@ -1,0 +1,90 @@
+Profile: PacificPractitionerRole
+Parent: PractitionerRole
+Id: pacific-practitioner-role
+Title: "Pacific Practitioner Role"
+Description: """
+Defines the functional, organisational, and regulatory role of a Pacific Practitioner.
+
+Supports multiple roles per practitioner (e.g., GP, hospital consultant, outreach clinician).
+Intended for use in Pacific regional health systems and future HIE environments.
+"""
+
+* ^status = #active
+* ^version = "1.0.0"
+
+///////////////////////////////////////////////////////////////
+// REFERENCES
+///////////////////////////////////////////////////////////////
+
+* practitioner 1..1
+* practitioner only Reference(PacificPractitioner)
+* practitioner ^short = "The practitioner performing this role"
+
+* organization 1..1
+* organization only Reference(PacificOrganization)
+* organization ^short = "The healthcare organisation where the role is performed"
+
+///////////////////////////////////////////////////////////////
+// ROLE IDENTIFIERS
+///////////////////////////////////////////////////////////////
+
+* identifier 0..*
+* identifier ^short = "Role-specific identifiers (facility appointment number, contract ID, etc.)"
+
+///////////////////////////////////////////////////////////////
+// ROLE CODE (FUNCTION)
+///////////////////////////////////////////////////////////////
+
+* code 1..*
+* code ^short = "Role or function performed"
+* code ^definition = "Describes the functional role such as General Practitioner, Nurse Practitioner, Specialist, etc."
+
+///////////////////////////////////////////////////////////////
+// SPECIALTY
+///////////////////////////////////////////////////////////////
+
+* specialty 0..*
+* specialty ^short = "Clinical specialty"
+
+///////////////////////////////////////////////////////////////
+// LOCATION
+///////////////////////////////////////////////////////////////
+
+* location 0..*
+* location only Reference(Location)
+* location ^short = "Location(s) where practitioner performs this role"
+
+///////////////////////////////////////////////////////////////
+// HEALTHCARE SERVICE
+///////////////////////////////////////////////////////////////
+
+* healthcareService 0..*
+* healthcareService only Reference(HealthcareService)
+* healthcareService ^short = "Services provided under this role"
+
+///////////////////////////////////////////////////////////////
+// TELECOM
+///////////////////////////////////////////////////////////////
+
+* telecom 0..*
+* telecom ^short = "Contact details specific to this role"
+
+///////////////////////////////////////////////////////////////
+// PERIOD
+///////////////////////////////////////////////////////////////
+
+* period 0..1
+* period ^short = "Time period during which this role is active"
+
+///////////////////////////////////////////////////////////////
+// AVAILABILITY
+///////////////////////////////////////////////////////////////
+
+* availableTime 0..*
+* notAvailable 0..*
+
+///////////////////////////////////////////////////////////////
+// AVAILABILITY EXCEPTIONS
+///////////////////////////////////////////////////////////////
+
+* availabilityExceptions 0..1

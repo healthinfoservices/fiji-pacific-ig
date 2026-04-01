@@ -1,0 +1,8 @@
+{
+  "name": "pacific.core.ig",
+  "version": "0.1.0",
+  "description": "Fiji Core IG using FHIR R4",
+  "license": "CC0-1.0",
+  "dependencies": {
+  }
+}
