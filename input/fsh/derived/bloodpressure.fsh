@@ -6,7 +6,7 @@ Description: "Observation profile for blood pressure using LOINC"
 
 * status = #final
 * category = $obs-cat-cs#vital-signs
-* code = $loinc#85354-9 "Blood pressure panel"
+* code = $loinc#85354-9 "Blood pressure panel with all children optional"
 * subject only Reference(PacificPatient)
 * effective[x] only dateTime
 

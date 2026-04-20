@@ -184,7 +184,7 @@ Usage: #example
 Title: "Pacific Practitioner Example Samoa"
 Description: "Registered practitioner with official registration name and usual community name including clan affiliation."
 
-* identifier.system = "http://health.gov.ws/practitioner-registration"
+* identifier.system = "http://health.gov.ws/fhir/identifier/practitioner"
 * identifier.value = "REG-12345"
 
 * name[official].use = #official
@@ -223,7 +223,7 @@ Description: "General Practitioner role at district hospital for registered Paci
 Instance: PacificHospitalExample
 InstanceOf: Organization
 Usage: #example
-Title: "Pacific Hospital Example – Fiji Divisional Hospital"
+Title: "Pacific Hospital Example Fiji Divisional Hospital"
 Description: """
 Example Pacific hospital organization in Fiji.
 Includes organizational identifier, contact information, and address.

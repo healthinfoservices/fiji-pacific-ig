@@ -61,7 +61,7 @@ Recommended mapping of address fields are below but should be specifically defin
 * extension contains
     PacificAddressVillage named village 0..1 MS and
     PacificAddressIsland named island 0..1 MS and
-    $geolocation named geolocation 0..1 MS
+    $geolocation|4.0.1 named geolocation 0..1
 
 * extension[village] ^short = "Village or rural settlement."
 * extension[village] ^definition = "Village, settlement, or rural community name. This is often a primary geographic identifier in Pacific addressing."

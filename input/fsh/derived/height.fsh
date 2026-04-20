@@ -5,7 +5,7 @@ Title: "Height Vitals (Pacific region)"
 Description: "Profile for height vital observations in the Pacific region"
 * status = #final
 * category = $obs-cat-cs#vital-signs
-* code = $loinc#8302-2 "Height"
+* code = $loinc#8302-2 "Body height"
 * valueQuantity.unit = "cm"
 * valueQuantity.system = $UCUM
 * valueQuantity.code = #cm

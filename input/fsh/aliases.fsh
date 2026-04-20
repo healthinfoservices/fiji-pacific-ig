@@ -23,7 +23,9 @@ Alias: $UMLS = http://terminology.hl7.org/CodeSystem/umls
 Alias: $id-type-cs = http://terminology.hl7.org/CodeSystem/v2-0203
 
 Alias: $obs-status-cs = http://hl7.org/fhir/observation-status
-Alias: $obs-cat-cs = https://hl7.org/fhir/R4/codesystem-observation-category.html
+//Alias: $obs-cat-cs = http://hl7.org/fhir/R4/codesystem-observation-category
+Alias: $obs-cat-cs = http://terminology.hl7.org/CodeSystem/observation-category 
+
 Alias: $obs-interp-cs = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $obs-refrange-meaning-cs = http://terminology.hl7.org/CodeSystem/referencerange-meaning
 

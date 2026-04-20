@@ -4,7 +4,7 @@ Id: heart-rate-loinc
 Title: "Heart Rate LOINC Codes"
 Description: "LOINC codes for heart rate measurements, spot or average."
 * include $loinc#8867-4 "Heart rate"
-* include $loinc#8867-6 "Heart rate, average"
+* include $loinc#103205-1 "Mean heart rate"
 
 Profile: PacificVitalHeartRate
 Parent: PacificObservation
