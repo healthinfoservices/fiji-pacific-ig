@@ -3,6 +3,7 @@ Id: loinc-vs
 Title: "LOINC ValueSet"
 Description: "ValueSet for LOINC codes as temporary filler until Fiji/Pacific valuueset is developed."
 * include codes from system http://loinc.org
+* experimental = true
 
 Profile: PacificObservation
 Parent: Observation

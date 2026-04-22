@@ -8,8 +8,8 @@
 # ╰───────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.pacific.core
 packageId: hl7.fhir.uv.pacific.core
-canonical: https://healthinfoservices.net/pacific-core
-name: PacificCore
+canonical: https://healthinfoservices.net/fiji-pacific-ig
+name: FijiPacificCore
 title: Fiji Core Implementation Guide
 description: Implementation Guide for Fiji FHIR Interopeerability with base definitions applicable to the wider South Pacific region.
 status: draft # draft | active | retired | unknown
