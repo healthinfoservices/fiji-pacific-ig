@@ -5,10 +5,6 @@ Title: "Heart Rate LOINC Codes"
 Description: "LOINC codes for heart rate measurements, spot or average."
 * include $loinc#8867-4 "Heart rate"
 * include $loinc#103205-1 "Mean heart rate"
-* experimental = true
-* status = #draft
-* version = "0.1.0"
-* url = "https://healthinfoservices.net/fiji-pacific-ig/en/ValueSet-heart-rate-loinc.html"
 
 Profile: PacificVitalHeartRate
 Parent: PacificObservation
