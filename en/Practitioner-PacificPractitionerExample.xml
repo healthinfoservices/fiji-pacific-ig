@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="PacificPractitionerExample"/>
+  <meta>
+    <profile value="https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-practitioner"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><p class="res-header-id"><b>Generated Narrative: Practitioner PacificPractitionerExample</b></p><a name="PacificPractitionerExample"> </a><a name="hcPacificPractitionerExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-pacific-practitioner.html">Pacific Practitioner</a></p></div><p><b>Pacific Clan Affiliation</b>: <span title="Codes:">Sa Tupua</span></p><p><b>identifier</b>: <a href="NamingSystem-WSPractitionerRegistration.html" title="NamingSystem for practitioner registration identifiers in Western Samoa, using a simulated national identifier system for demonstration purposes.">WesternSamoaPractitionerRegistration</a>/REG-12345</p><p><b>name</b>: Leilani Tupua (Official), Lani </p><p><b>gender</b>: Female</p></div>
+  </text>
+  <extension url="https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-clan-affiliation">
+    <valueCodeableConcept>
+      <text value="Sa Tupua"/>
+    </valueCodeableConcept>
+  </extension>
+  <identifier>
+    <system value="http://health.gov.ws/fhir/identifier/practitioner"/>
+    <value value="REG-12345"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Tupua"/>
+    <given value="Leilani"/>
+  </name>
+  <name>
+    <use value="usual"/>
+    <given value="Lani"/>
+  </name>
+  <gender value="female"/>
+</Practitioner>

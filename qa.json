@@ -1,0 +1,19 @@
+{
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/ImplementationGuide/hl7.fhir.uv.pacific.core",
+  "name" : "FijiPacificCore",
+  "title" : "Fiji Core Implementation Guide",
+  "description" : "Implementation Guide for Fiji FHIR Interopeerability with base definitions applicable to the wider South Pacific region.",
+  "status" : "draft",
+  "package-id" : "hl7.fhir.uv.pacific.core",
+  "ig-ver" : "0.2.0",
+  "date" : "Wed, 22 Apr, 2026 00:53:04 +0000",
+  "dateISO8601" : "2026-04-22T00:53:04+00:00",
+  "errs" : 0,
+  "warnings" : 20,
+  "hints" : 9,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1299853936
+}

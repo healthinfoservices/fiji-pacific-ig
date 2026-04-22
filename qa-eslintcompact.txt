@@ -1,0 +1,35 @@
+FijiPacificCore
+=========================================
+
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address-island.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address-village.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance.json: line 1, col 28271, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-condition.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-observation.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-organization.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-bmi.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-bmi.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-height.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-height.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-weight.json: line 0, col 0, Info - The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users) (EXCEPTION)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-weight.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ValueSet-heart-rate-loinc.json: line 1, col 1502, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+/home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ValueSet-loinc-vs.json: line 1, col 1084, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+
+err = 0, warn = 20, info = 9
+IG Publisher Version: 2.2.6

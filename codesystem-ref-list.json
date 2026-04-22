@@ -1,0 +1,26 @@
+{
+  "codeSystems" : [{
+    "url" : "http://loinc.org",
+    "version" : "2.82",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "ValueSet-heart-rate-loinc.html" : "Heart Rate LOINC Codes",
+    "ValueSet-loinc-vs.html" : "LOINC ValueSet"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+  }]
+}

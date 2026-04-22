@@ -1,0 +1,40 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.403"],
+    "sources" : ["2.16.840.1.113883.4.642.3.403"],
+    "uses" : {
+    },
+    "StructureDefinition-pacific-observation.html" : "Pacific Observation"
+  },
+  {
+    "url" : "https://healthinfoservices.net/fiji-pacific-ig/ValueSet/heart-rate-loinc",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "HeartRateVS",
+    "title" : "Heart Rate LOINC Codes",
+    "description" : "LOINC codes for heart rate measurements, spot or average.",
+    "systems" : ["http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-pacific-vital-heart-rate.html" : "Heart Rate Vitals (Pacific region)"
+  },
+  {
+    "url" : "https://healthinfoservices.net/fiji-pacific-ig/ValueSet/loinc-vs",
+    "version" : "0.2.0",
+    "status" : "draft",
+    "name" : "LoincVS",
+    "title" : "LOINC ValueSet",
+    "description" : "ValueSet for LOINC codes as temporary filler until Fiji/Pacific valuueset is developed.",
+    "systems" : ["http://loinc.org"],
+    "uses" : {
+    },
+    "StructureDefinition-pacific-observation.html" : "Pacific Observation"
+  }]
+}

@@ -1,0 +1,1744 @@
+{
+  "date" : "Wed, 22 Apr, 2026 00:53:04 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.pacific.core.json",
+    "size" : 15186,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 29,
+      "length" : 14
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 30,
+      "length" : 12
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 94
+    },
+    {
+      "activity" : "validate",
+      "start" : 41,
+      "length" : 2587
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 157
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 210
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/NamingSystem-FijiOrganizationIdentifier.json",
+    "size" : 475,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 8
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 32,
+      "length" : 2102
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 21
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/NamingSystem-FijiPatientIdentifier.json",
+    "size" : 451,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 15
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 17
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/NamingSystem-FijiPractitionerRegistration.json",
+    "size" : 492,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 14
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 18
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/NamingSystem-WSPractitionerRegistration.json",
+    "size" : 507,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 16
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Organization-PacificHospitalExample.json",
+    "size" : 614,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 279
+    },
+    {
+      "activity" : "validate",
+      "start" : 43,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 14
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-PacificPatientExample1.json",
+    "size" : 864,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 43,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 15
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-PacificPatientExample2.json",
+    "size" : 876,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 43,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-PacificPatientFijiITaukei.json",
+    "size" : 914,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 43,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 11
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Patient-PacificPatientFijiIndo.json",
+    "size" : 671,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 43,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Practitioner-PacificPractitionerExample.json",
+    "size" : 770,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 43,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 13
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/PractitionerRole-PacificPractitionerRoleExample.json",
+    "size" : 650,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 43,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 21
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-address-island.json",
+    "size" : 1469,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 30,
+      "length" : 195
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 2385
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 40
+    },
+    {
+      "activity" : "generate2",
+      "start" : 51,
+      "length" : 556
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 700
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-address-village.json",
+    "size" : 1473,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 51
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 189
+    },
+    {
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 125
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-address.json",
+    "size" : 6908,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 47
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 32
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 128
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 99
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 346
+    },
+    {
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 203
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance.json",
+    "size" : 1710,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 31
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 16
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 153
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 120
+    },
+    {
+      "activity" : "generate2",
+      "start" : 52,
+      "length" : 394
+    },
+    {
+      "activity" : "generate2",
+      "start" : 61,
+      "length" : 236
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 6
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-clan-affiliation.json",
+    "size" : 1789,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 44
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 46
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 163
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 72
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-condition.json",
+    "size" : 1409,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 26
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 207
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 121
+    },
+    {
+      "activity" : "generate2",
+      "start" : 53,
+      "length" : 860
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 207
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 5
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-humanname.json",
+    "size" : 2750,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 51
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 47
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 169
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 74
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-observation.json",
+    "size" : 1379,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 40
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 20
+    },
+    {
+      "activity" : "validate",
+      "start" : 37,
+      "length" : 184
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 149
+    },
+    {
+      "activity" : "generate2",
+      "start" : 54,
+      "length" : 864
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 271
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-organization.json",
+    "size" : 1376,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 21
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 38,
+      "length" : 91
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 44,
+      "length" : 82
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 253
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 137
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-patient.json",
+    "size" : 4691,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 36
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 22
+    },
+    {
+      "activity" : "validate",
+      "start" : 38,
+      "length" : 126
+    },
+    {
+      "activity" : "generate1",
+      "start" : 45,
+      "length" : 169
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 450
+    },
+    {
+      "activity" : "generate2",
+      "start" : 62,
+      "length" : 217
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 7
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-practitioner-role.json",
+    "size" : 3019,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 22
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 17
+    },
+    {
+      "activity" : "validate",
+      "start" : 38,
+      "length" : 120
+    },
+    {
+      "activity" : "generate1",
+      "start" : 45,
+      "length" : 102
+    },
+    {
+      "activity" : "generate2",
+      "start" : 55,
+      "length" : 276
+    },
+    {
+      "activity" : "generate2",
+      "start" : 63,
+      "length" : 147
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 4
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-practitioner.json",
+    "size" : 4182,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 40
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 26
+    },
+    {
+      "activity" : "validate",
+      "start" : 38,
+      "length" : 104
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 45,
+      "length" : 160
+    },
+    {
+      "activity" : "generate2",
+      "start" : 56,
+      "length" : 518
+    },
+    {
+      "activity" : "generate2",
+      "start" : 63,
+      "length" : 178
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure.json",
+    "size" : 5403,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 29,
+      "length" : 42
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 67
+    },
+    {
+      "activity" : "validate",
+      "start" : 38,
+      "length" : 792
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 45,
+      "length" : 299
+    },
+    {
+      "activity" : "generate2",
+      "start" : 56,
+      "length" : 734
+    },
+    {
+      "activity" : "generate2",
+      "start" : 63,
+      "length" : 271
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 13
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-bmi.json",
+    "size" : 2630,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 30,
+      "length" : 27
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 30
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 324
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 45,
+      "length" : 187
+    },
+    {
+      "activity" : "generate2",
+      "start" : 57,
+      "length" : 459
+    },
+    {
+      "activity" : "generate2",
+      "start" : 63,
+      "length" : 175
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature.json",
+    "size" : 2681,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 30,
+      "length" : 36
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 27
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 293
+    },
+    {
+      "activity" : "generate1",
+      "start" : 45,
+      "length" : 195
+    },
+    {
+      "activity" : "generate2",
+      "start" : 57,
+      "length" : 436
+    },
+    {
+      "activity" : "generate2",
+      "start" : 63,
+      "length" : 157
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate.json",
+    "size" : 2588,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 30,
+      "length" : 37
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 25
+    },
+    {
+      "activity" : "validate",
+      "start" : 39,
+      "length" : 145
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 46,
+      "length" : 171
+    },
+    {
+      "activity" : "generate2",
+      "start" : 58,
+      "length" : 589
+    },
+    {
+      "activity" : "generate2",
+      "start" : 64,
+      "length" : 155
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-height.json",
+    "size" : 2620,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 30,
+      "length" : 36
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 28
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 299
+    },
+    {
+      "activity" : "generate1",
+      "start" : 46,
+      "length" : 210
+    },
+    {
+      "activity" : "generate2",
+      "start" : 58,
+      "length" : 415
+    },
+    {
+      "activity" : "generate2",
+      "start" : 64,
+      "length" : 163
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation.json",
+    "size" : 2715,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 30,
+      "length" : 24
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 28
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 293
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 46,
+      "length" : 180
+    },
+    {
+      "activity" : "generate2",
+      "start" : 59,
+      "length" : 411
+    },
+    {
+      "activity" : "generate2",
+      "start" : 64,
+      "length" : 171
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 9
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate.json",
+    "size" : 2678,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 30,
+      "length" : 23
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 29
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 297
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 46,
+      "length" : 179
+    },
+    {
+      "activity" : "generate2",
+      "start" : 59,
+      "length" : 412
+    },
+    {
+      "activity" : "generate2",
+      "start" : 64,
+      "length" : 139
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 9
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 87,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-pacific-vital-weight.json",
+    "size" : 2616,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 30,
+      "length" : 22
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 27
+    },
+    {
+      "activity" : "validate",
+      "start" : 40,
+      "length" : 249
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 43,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 46,
+      "length" : 177
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 401
+    },
+    {
+      "activity" : "generate2",
+      "start" : 64,
+      "length" : 129
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-heart-rate-loinc.json",
+    "size" : 623,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 31,
+      "length" : 770
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 370
+    },
+    {
+      "activity" : "generate1",
+      "start" : 47,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 95
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-loinc-vs.json",
+    "size" : 405,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 29,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 29,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 30,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 32,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 34,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 47,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 238
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 73,
+      "length" : 8
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 2281,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 1043
+  },
+  {
+    "name" : "/input/pagecontent/dependency-table.xhtml",
+    "size" : 38,
+    "processes" : [{
+      "activity" : "generate1",
+      "start" : 47,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 27
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/globals-table.xhtml",
+    "size" : 39,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 936
+  },
+  {
+    "name" : "/input/pagecontent/ip-statements.xhtml",
+    "size" : 38,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/gettingstarted.md",
+    "size" : 4236
+  },
+  {
+    "name" : "/input/pagecontent/LICENSE.md",
+    "size" : 1132,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/cross-version-analysis.xhtml",
+    "size" : 38,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 17
+    }]
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/logo extended.png",
+    "size" : 73262
+  },
+  {
+    "name" : "/input/images/logo.ico",
+    "size" : 178646
+  },
+  {
+    "name" : "/input/images/logo2.jpg",
+    "size" : 15742,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 25606,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 60,
+      "length" : 2
+    }]
+  }]
+}

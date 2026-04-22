@@ -1,0 +1,106 @@
+FijiPacificCore : Validation Results
+=========================================
+
+err = 0, warn = 20, info = 9
+IG Publisher Version: 2.2.6
+Generated Wed Apr 22 00:54:32 UTC 2026. FHIR version 4.0.1 for hl7.fhir.uv.pacific.core#0.2.0 (canonical = https://healthinfoservices.net/fiji-pacific-ig)
+ Build Errors : 0 / 4 / 0
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.pacific.core : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/NamingSystem-FijiOrganizationIdentifier : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/NamingSystem-FijiPatientIdentifier : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/NamingSystem-FijiPractitionerRegistration : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/NamingSystem-WSPractitionerRegistration : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Organization-PacificHospitalExample : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientExample1 : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientExample2 : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientFijiITaukei : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Patient-PacificPatientFijiIndo : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/Practitioner-PacificPractitionerExample : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/PractitionerRole-PacificPractitionerRoleExample : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address-island : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-address-village : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-clan-affiliation : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-condition : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-humanname : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-observation : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-organization : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-patient : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-practitioner : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-practitioner-role : 0 / 0 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-bmi : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-height : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/StructureDefinition-pacific-vital-weight : 0 / 1 / 2
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ValueSet-heart-rate-loinc : 0 / 1 / 1
+ /home/runner/work/fiji-pacific-ig/fiji-pacific-ig/fsh-generated/resources/ValueSet-loinc-vs : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.pacific.core.json ==
+== fsh-generated/resources/NamingSystem-FijiOrganizationIdentifier.json ==
+== fsh-generated/resources/NamingSystem-FijiPatientIdentifier.json ==
+== fsh-generated/resources/NamingSystem-FijiPractitionerRegistration.json ==
+== fsh-generated/resources/NamingSystem-WSPractitionerRegistration.json ==
+== fsh-generated/resources/Organization-PacificHospitalExample.json ==
+== fsh-generated/resources/Patient-PacificPatientExample1.json ==
+== fsh-generated/resources/Patient-PacificPatientExample2.json ==
+== fsh-generated/resources/Patient-PacificPatientFijiITaukei.json ==
+== fsh-generated/resources/Patient-PacificPatientFijiIndo.json ==
+== fsh-generated/resources/Practitioner-PacificPractitionerExample.json ==
+== fsh-generated/resources/PractitionerRole-PacificPractitionerRoleExample.json ==
+== fsh-generated/resources/StructureDefinition-pacific-address.json ==
+== fsh-generated/resources/StructureDefinition-pacific-address-island.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-address-island'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pacific-address-village.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-address-village'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-pacific-allergy-intolerance.json ==
+INFORMATION: StructureDefinition/pacific-allergy-intolerance: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-allergy-intolerance'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-clan-affiliation.json ==
+== fsh-generated/resources/StructureDefinition-pacific-condition.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-condition'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-humanname.json ==
+== fsh-generated/resources/StructureDefinition-pacific-observation.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-organization.json ==
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-patient.json ==
+== fsh-generated/resources/StructureDefinition-pacific-practitioner.json ==
+== fsh-generated/resources/StructureDefinition-pacific-practitioner-role.json ==
+== fsh-generated/resources/StructureDefinition-pacific-vital-blood-pressure.json ==
+INFORMATION: StructureDefinition/pacific-vital-blood-pressure: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-blood-pressure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-bmi.json ==
+INFORMATION: StructureDefinition/pacific-vital-bmi: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-bmi'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-body-temperature.json ==
+INFORMATION: StructureDefinition/pacific-vital-body-temperature: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-body-temperature'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-heart-rate.json ==
+INFORMATION: StructureDefinition/pacific-vital-heart-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-heart-rate'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-height.json ==
+INFORMATION: StructureDefinition/pacific-vital-height: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-height'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-oxygen-saturation.json ==
+INFORMATION: StructureDefinition/pacific-vital-oxygen-saturation: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-oxygen-saturation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-respiratory-rate.json ==
+INFORMATION: StructureDefinition/pacific-vital-respiratory-rate: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-respiratory-rate'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-pacific-vital-weight.json ==
+INFORMATION: StructureDefinition/pacific-vital-weight: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+WARNING: StructureDefinition.where(url = 'https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-weight'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-heart-rate-loinc.json ==
+WARNING: ValueSet/heart-rate-loinc: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-loinc-vs.json ==
+WARNING: ValueSet/loinc-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

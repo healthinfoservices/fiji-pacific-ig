@@ -1,0 +1,30 @@
+{
+  "resourceType" : "Organization",
+  "id" : "PacificHospitalExample",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: Organization PacificHospitalExample</b></p><a name=\"PacificHospitalExample\"> </a><a name=\"hcPacificHospitalExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p><b>identifier</b>: <a href=\"NamingSystem-FijiOrganizationIdentifier.html\" title=\"NamingSystem for organization identifiers in Fiji, using a simulated national identifier system for demonstration purposes.\">FijiOrganizationIdentifier</a>/FJ-HOSP-SUH-001</p><p><b>name</b>: Suva Divisional Hospital</p><p><b>telecom</b>: <a href=\"tel:+6793313444\">+6793313444</a>, <a href=\"mailto:info@suvahospital.gov.fj\">info@suvahospital.gov.fj</a></p><p><b>address</b>: Amy Street Suva FJ </p></div>"
+  },
+  "identifier" : [{
+    "system" : "http://health.gov.fj/fhir/identifier/organization",
+    "value" : "FJ-HOSP-SUH-001"
+  }],
+  "name" : "Suva Divisional Hospital",
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+6793313444",
+    "use" : "work"
+  },
+  {
+    "system" : "email",
+    "value" : "info@suvahospital.gov.fj",
+    "use" : "work"
+  }],
+  "address" : [{
+    "line" : ["Amy Street"],
+    "city" : "Suva",
+    "district" : "Central Division",
+    "country" : "FJ"
+  }]
+}
