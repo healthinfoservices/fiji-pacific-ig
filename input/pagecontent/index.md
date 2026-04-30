@@ -2,9 +2,11 @@
 
 This is a FHIR Implementation Guide (IG) intended to use as as a Fiji Core interoperability specification.  It is intended that this IG will also be extended for use in other Pacific nations.  Thus it provides a basic structure for commonly used FHIR profiles with definitions that are relevant across the region to other Pacific nations.  
 
-The goals of this IG are:
+The high level goals of this IG are:
 - Interoperability specification for Fiji health data exchange  
 - Future interoperability between Pacific nations
+
+This IG should not be considered as a final product, but rather as an initial template to be adjusted/modified to meet the actual requirements of Fiji and other Pacific Countries.
 
 This IG derives from FHIR R4 (ver 4.0.1).  
 
