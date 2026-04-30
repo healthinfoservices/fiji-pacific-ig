@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://healthinfoservices.net/fiji-pacific-ig/PractitionerRole/PacificPractitionerRoleExample> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PacificPractitionerRoleExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-practitioner-role"^^xsd:anyURI ;
+       fhir:l <https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-practitioner-role>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole PacificPractitionerRoleExample</b></p><a name=\"PacificPractitionerRoleExample\"> </a><a name=\"hcPacificPractitionerRoleExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pacific-practitioner-role.html\">Pacific Practitioner Role</a></p></div><p><b>period</b>: 2023-01-01 --&gt; (ongoing)</p><p><b>practitioner</b>: <a href=\"Practitioner-PacificPractitionerExample.html\">Practitioner Leilani Tupua (official)</a></p><p><b>organization</b>: <a href=\"Organization-PacificHospitalExample.html\">Organization Suva Divisional Hospital</a></p><p><b>code</b>: <span title=\"Codes:\">General Practitioner</span></p><p><b>specialty</b>: <span title=\"Codes:\">Family Medicine</span></p><p><b>telecom</b>: <a href=\"tel:+685123456\">+685123456</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2023-01-01"^^xsd:date ]
+  ] ; # 
+  fhir:practitioner [
+     fhir:l <https://healthinfoservices.net/fiji-pacific-ig/Practitioner/PacificPractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/PacificPractitionerExample" ]
+  ] ; # 
+  fhir:organization [
+     fhir:l <https://healthinfoservices.net/fiji-pacific-ig/Organization/PacificHospitalExample> ;
+     fhir:reference [ fhir:v "Organization/PacificHospitalExample" ]
+  ] ; # 
+  fhir:code ( [
+     fhir:text [ fhir:v "General Practitioner" ]
+  ] ) ; # 
+  fhir:specialty ( [
+     fhir:text [ fhir:v "Family Medicine" ]
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "+685123456" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

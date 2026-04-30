@@ -1,0 +1,189 @@
+[{
+  "id" : "hl7.fhir.uv.pacific.core",
+  "type" : "ImplementationGuide",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/ImplementationGuide/hl7.fhir.uv.pacific.core",
+  "version" : "0.2.0",
+  "name" : "FijiPacificCore"
+},
+{
+  "id" : "FijiOrganizationIdentifier",
+  "type" : "NamingSystem",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/NamingSystem/FijiOrganizationIdentifier",
+  "version" : "0.2.0",
+  "name" : "FijiOrganizationIdentifier"
+},
+{
+  "id" : "FijiPatientIdentifier",
+  "type" : "NamingSystem",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/NamingSystem/FijiPatientIdentifier",
+  "version" : "0.2.0",
+  "name" : "FijiPatientIdentifier"
+},
+{
+  "id" : "FijiPractitionerRegistration",
+  "type" : "NamingSystem",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/NamingSystem/FijiPractitionerRegistration",
+  "version" : "0.2.0",
+  "name" : "FijiPractitionerRegistration"
+},
+{
+  "id" : "WSPractitionerRegistration",
+  "type" : "NamingSystem",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/NamingSystem/WSPractitionerRegistration",
+  "version" : "0.2.0",
+  "name" : "WesternSamoaPractitionerRegistration"
+},
+{
+  "id" : "pacific-address",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-address",
+  "version" : "0.2.0",
+  "name" : "PacificAddress"
+},
+{
+  "id" : "pacific-address-island",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-address-island",
+  "version" : "0.2.0",
+  "name" : "PacificAddressIsland"
+},
+{
+  "id" : "pacific-address-village",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-address-village",
+  "version" : "0.2.0",
+  "name" : "PacificAddressVillage"
+},
+{
+  "id" : "pacific-allergy-intolerance",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-allergy-intolerance",
+  "version" : "0.2.0",
+  "name" : "PacificAllergyIntolerance"
+},
+{
+  "id" : "pacific-clan-affiliation",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-clan-affiliation",
+  "version" : "0.2.0",
+  "name" : "PacificClanAffiliation"
+},
+{
+  "id" : "pacific-condition",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-condition",
+  "version" : "0.2.0",
+  "name" : "PacificCondition"
+},
+{
+  "id" : "pacific-humanname",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-humanname",
+  "version" : "0.2.0",
+  "name" : "PacificHumanName"
+},
+{
+  "id" : "pacific-observation",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-observation",
+  "version" : "0.2.0",
+  "name" : "PacificObservation"
+},
+{
+  "id" : "pacific-organization",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-organization",
+  "version" : "0.2.0",
+  "name" : "PacificOrganization"
+},
+{
+  "id" : "pacific-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-patient",
+  "version" : "0.2.0",
+  "name" : "PacificPatient"
+},
+{
+  "id" : "pacific-practitioner",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-practitioner",
+  "version" : "0.2.0",
+  "name" : "PacificPractitioner"
+},
+{
+  "id" : "pacific-practitioner-role",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-practitioner-role",
+  "version" : "0.2.0",
+  "name" : "PacificPractitionerRole"
+},
+{
+  "id" : "pacific-vital-blood-pressure",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-blood-pressure",
+  "version" : "0.2.0",
+  "name" : "PacificVitalBloodPressure"
+},
+{
+  "id" : "pacific-vital-bmi",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-bmi",
+  "version" : "0.2.0",
+  "name" : "PacificBMI"
+},
+{
+  "id" : "pacific-vital-body-temperature",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-body-temperature",
+  "version" : "0.2.0",
+  "name" : "PacificVitalBodyTemperature"
+},
+{
+  "id" : "pacific-vital-heart-rate",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-heart-rate",
+  "version" : "0.2.0",
+  "name" : "PacificVitalHeartRate"
+},
+{
+  "id" : "pacific-vital-height",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-height",
+  "version" : "0.2.0",
+  "name" : "PacificHeight"
+},
+{
+  "id" : "pacific-vital-oxygen-saturation",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-oxygen-saturation",
+  "version" : "0.2.0",
+  "name" : "PacificOxygenSaturation"
+},
+{
+  "id" : "pacific-vital-respiratory-rate",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-respiratory-rate",
+  "version" : "0.2.0",
+  "name" : "PacificRespiratoryRate"
+},
+{
+  "id" : "pacific-vital-weight",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/StructureDefinition/pacific-vital-weight",
+  "version" : "0.2.0",
+  "name" : "PacificWeight"
+},
+{
+  "id" : "heart-rate-loinc",
+  "type" : "ValueSet",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/ValueSet/heart-rate-loinc",
+  "version" : "0.2.0",
+  "name" : "HeartRateVS"
+},
+{
+  "id" : "loinc-vs",
+  "type" : "ValueSet",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/ValueSet/loinc-vs",
+  "version" : "0.2.0",
+  "name" : "LoincVS"
+}]

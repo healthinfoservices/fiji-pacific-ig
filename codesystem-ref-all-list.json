@@ -1,0 +1,364 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/address-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressType",
+    "title" : "AddressType",
+    "description" : "The type of an address (physical / postal).",
+    "oids" : ["2.16.840.1.113883.4.642.4.70"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-address-type.html" : "AddressType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/address-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AddressUse",
+    "title" : "AddressUse",
+    "description" : "The use of an address.",
+    "oids" : ["2.16.840.1.113883.4.642.4.68"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-address-use.html" : "AddressUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+  },
+  {
+    "url" : "http://hl7.org/fhir/allergy-intolerance-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "AllergyIntoleranceCategory",
+    "title" : "AllergyIntoleranceCategory",
+    "description" : "Category of an identified substance associated with allergies or intolerances.",
+    "oids" : ["2.16.840.1.113883.4.642.4.134"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-allergy-intolerance-category.html" : "AllergyIntoleranceCategory"
+  },
+  {
+    "url" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "AllergyIntoleranceCriticality",
+    "title" : "AllergyIntoleranceCriticality",
+    "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+    "oids" : ["2.16.840.1.113883.4.642.4.130"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-allergy-intolerance-criticality.html" : "AllergyIntoleranceCriticality"
+  },
+  {
+    "url" : "http://hl7.org/fhir/allergy-intolerance-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "AllergyIntoleranceType",
+    "title" : "AllergyIntoleranceType",
+    "description" : "Identification of the underlying physiological mechanism for a Reaction Risk.",
+    "oids" : ["2.16.840.1.113883.4.642.4.132"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-allergy-intolerance-type.html" : "AllergyIntoleranceType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/days-of-week",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "DaysOfWeek",
+    "title" : "DaysOfWeek",
+    "description" : "The days of the week.",
+    "oids" : ["2.16.840.1.113883.4.642.4.513"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-days-of-week.html" : "DaysOfWeek"
+  },
+  {
+    "url" : "http://hl7.org/fhir/link-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "LinkType",
+    "title" : "LinkType",
+    "description" : "The type of link between this patient resource and another patient resource.",
+    "oids" : ["2.16.840.1.113883.4.642.4.424"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-link-type.html" : "LinkType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/name-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "NameUse",
+    "title" : "NameUse",
+    "description" : "The use of a human name.",
+    "oids" : ["2.16.840.1.113883.4.642.4.66"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-name-use.html" : "NameUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
+    "url" : "http://hl7.org/fhir/reaction-event-severity",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "AllergyIntoleranceSeverity",
+    "title" : "AllergyIntoleranceSeverity",
+    "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
+    "oids" : ["2.16.840.1.113883.4.642.4.136"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-reaction-event-severity.html" : "AllergyIntoleranceSeverity"
+  },
+  {
+    "url" : "http://loinc.org",
+    "version" : "2.82",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "ValueSet-heart-rate-loinc.html" : "Heart Rate LOINC Codes",
+    "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
+    "ValueSet-loinc-vs.html" : "LOINC ValueSet"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
+    "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+    "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role",
+    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+    "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
+    "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+    "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+    "http://hl7.org/fhir/R4/valueset-allergyintolerance-code.html" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
+    "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "AllergyIntoleranceClinicalStatusCodes",
+    "title" : "AllergyIntolerance Clinical Status Codes",
+    "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1373"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-allergyintolerance-clinical.html" : "AllergyIntolerance Clinical Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "AllergyIntoleranceVerificationStatus",
+    "title" : "AllergyIntolerance Verification Status",
+    "description" : "The verification status to support or decline the clinical status of the allergy or intolerance.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1371"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-allergyintolerance-verification.html" : "AllergyIntolerance Verification Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-condition-category.html" : "Condition Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-condition-ver-status.html" : "ConditionVerificationStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/contactentity-type",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ContactEntityType",
+    "title" : "Contact entity type",
+    "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1129"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-contactentity-type.html" : "Contact entity type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-data-absent-reason.html" : "DataAbsentReason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/organization-type",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "OrganizationType",
+    "title" : "Organization type",
+    "description" : "This example value set defines a set of codes that can be used to indicate a type of organization.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1128"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-organization-type.html" : "Organization type"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/practitioner-role",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "PractitionerRole",
+    "title" : "Practitioner role",
+    "description" : "This example value set defines a set of codes that can be used to indicate the role of a Practitioner.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1132"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-practitioner-role.html" : "Practitioner role"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ContactRole2",
+    "title" : "contactRole2",
+    "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+    "oids" : ["2.16.840.1.113883.18.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "MaritalStatus",
+    "title" : "MaritalStatus",
+    "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+    "oids" : ["2.16.840.1.113883.5.2"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "NullFlavor",
+    "title" : "NullFlavor",
+    "description" : "A collection of codes specifying why a valid value is not present.",
+    "oids" : ["2.16.840.1.113883.5.1008"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "oids" : ["2.16.840.1.113883.5.83"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+  }]
+}
