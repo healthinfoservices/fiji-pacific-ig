@@ -34,6 +34,10 @@ license: CC0-1.0 # https://creativecommons.org/publicdomain/zero/1.0/
 # menu structure of the IG
 menu:
   Home: index.html
+  Getting Started: gettingstarted.html
+  Data Types: datatypes.html
+  Resources: resources.html
+  Terminology: terminology.html
   Artifacts: artifacts.html
 
 # contact
@@ -62,6 +66,13 @@ pages:
     title: Fiji Core Implementation Guide
   gettingstarted.md:
     title: Contributing to the Fiji Core IG
+  datatypes.md:
+    title: Data Type Profiles
+  resources.md:
+    title: Resource Profiles
+  terminology.md:
+    title: Terminology
+
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview

@@ -6,12 +6,21 @@ The high level goals of this IG are:
 - Interoperability specification for Fiji health data exchange  
 - Future interoperability between Pacific nations
 
-This IG should not be considered as a final product, but rather as an initial template to be adjusted/modified to meet the actual requirements of Fiji and other Pacific Countries.
-
-This IG derives from FHIR R4 (ver 4.0.1).  
-
 This IG is currently in first draft state.  If you have experience and responsibility delivering health in the Pacific, any assistance, comments or suggestions would be deeply valued as we seek to refine this further.
+
+## Profiles and Links
+[Resource Profiles](resources.html)
+[Data Type Profiles](datatypes.html)
+[Terminology](terminology.html)
+[How to contribute](gettingstarted.html)
+[License](LICENSE.html)
+
+## FHIR Version
+This IG derives from [FHIR R4 ver 4.0.1](https://hl7.org/fhir/R4/index.html).  
 
 ## About the Project
 This IG has been developed by HealthInfoServices to support Fiji and other Pacific nations on their Interoperability/FHIR journey.  This is free to use.
+
+## References and Links
+
 
