@@ -1,7 +1,7 @@
 {
   "resourceType" : "Requirements",
   "id" : "fromNarrative",
-  "url" : "https://healthinfoservices.net/pacific-core/Requirements/fromNarrative",
+  "url" : "https://healthinfoservices.net/fiji-pacific-ig/Requirements/fromNarrative",
   "name" : "FromNarrative",
   "title" : "Narrative Conformance Statements",
   "status" : "active",
