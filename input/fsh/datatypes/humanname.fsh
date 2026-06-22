@@ -5,12 +5,14 @@ Title: "Pacific HumanName"
 Description: """
 A HumanName profile designed for South Pacific jurisdictions.
 
-This profile supports:
-- Absence of family names
-- Patronymic structures
+In the South Pacific, naming conventions are diverse and may not align with Western norms. This profile accommodates a range of naming practices used in the South Pacific including:
+
+- Absence of family names (e.g., in some cultures where individuals may have only given names)
+- Patronymic or Matronymic structures
 - Multiple given names
 - Customary and ceremonial naming
 - Distinction between 'usual' (social) and 'official' (legal) names
+
 
 At least one HumanName instance must exist on Patient.
 Systems SHALL NOT require both usual and official names.
