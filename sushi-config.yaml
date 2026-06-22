@@ -16,7 +16,8 @@ status: draft # draft | active | retired | unknown
 version: 0.2.0
 copyrightYear: 2026+
 releaseLabel: ci-build
-license: CC0-1.0 # https://creativecommons.org/publicdomain/zero/1.0/
+license: MIT
+copyright: Copyright (c) 2026+ Daniel Foulkes, HealthInfoServices.net
 
 # publisher:
 #  name: Example Publisher
@@ -38,6 +39,7 @@ menu:
   Data Types: datatypes.html
   Resources: resources.html
   Terminology: terminology.html
+  Extensions: extensions.html
   Artifacts: artifacts.html
 
 # contact
@@ -72,6 +74,9 @@ pages:
     title: Resource Profiles
   terminology.md:
     title: Terminology
+  extensions.md:
+    title: Extensions
+  
 
 #   implementation.xml:
 #   examples.xml:
