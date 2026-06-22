@@ -9,12 +9,11 @@ In all cases:
 - text is a mandatory field and should be considered the primary representation of the fully address.
 - line is used for free text address lines and may relate to a landmark, school, church etc. rather than a street address.
 - Village and Island are added as extensions to the base fhir Address definition to support common Pacific address formats.
-- clanAffiliation is already an extension in the PacificPatient, PacificProvider profiles so does not need to be duplicated here.
 - geolocation is added as an optional extension to support use case where GPS coordinates are available. It is expected that this will become more common.
 - Postal code is often not used, so is currently optional and may be removed (ie 0..0) if not required in the future
 - Country is required to support international interoperability
 
-Recommended mapping of address fields are below but should be specifically defined and documented in national core IGs
+Recommended mapping of address fields are below but should be specifically defined and documented in nation specific examples.
 
 | FHIR Element        | Typical Pacific Use            | Notes                          |
 | ------------------- | ------------------------------ | ------------------------------ |
@@ -26,6 +25,7 @@ Recommended mapping of address fields are below but should be specifically defin
 | `extension:village` | Village                        | Most rural addresses           |
 | `extension:island`  | Island                         | Important for logistics        |
 
+Note: clanAffiliation is already an extension in the PacificPatient, PacificProvider profiles so does not need to be duplicated here.
 """
 
 

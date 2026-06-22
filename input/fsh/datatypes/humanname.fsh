@@ -13,9 +13,12 @@ In the South Pacific, naming conventions are diverse and may not align with West
 - Customary and ceremonial naming
 - Distinction between 'usual' (social) and 'official' (legal) names
 
-
-At least one HumanName instance must exist on Patient.
+At least one PacificHumanName instance must exist on PacificPatient and PacificPractitioner resources.
 Systems SHALL NOT require both usual and official names.
+
+Note: Clan affiliation is recorded separately from the PacificHumanName.  It issupported as an optional extension of  PacificPatient and PacificPractitioner resources to capture important cultural identity information.
+
+**STATUS**: Proposed - needs further review and consensus from South Pacific stakeholders before finalization.
 """
 
 * ^status = #active
