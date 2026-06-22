@@ -103,6 +103,8 @@ Family name SHALL NOT be mandatory.
 // -----------------------------
 // Invariants
 // -----------------------------
+* obeys pac-hn-1
+* obeys pac-hn-2
 
 Invariant: pac-hn-1
 Description: "At least one of given or text must be present"

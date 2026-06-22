@@ -4,8 +4,6 @@ This page describes data type profiles used in this implementation guide.
 
 The Pacific Human Name profile defines naming conventions commonly used across Pacific countries.
 
-### Purpose
-
 Support for:
 - Absence of family names (e.g., in some cultures where individuals may have only given names)
 - Patronymic or Matronymic structures
@@ -17,7 +15,7 @@ Support for:
 
 [PacificHumanName](StructureDefinition-pacific-humanname.html)
 
-### Usage
+### Pacific Name Usage
 
 This datatype profile is intended for:
 
@@ -28,8 +26,6 @@ This datatype profile is intended for:
 ## Pacific Address
 
 The Pacific Address profile supports a range of address formats commonly used in Pacific jurisdictions.
-
-### Purpose
 
 The PacificAddress profile designed for Pacific nations where addresses are commonly descriptive and village-based rather than street-based.
 This profile includes commonly required extensions, and general usage guidance.
@@ -45,7 +41,7 @@ This includes optional extensions for:
 [PacificAddressIsland](StructureDefinition-pacific-address-island.html)
 
 
-### Usage
+### Pacific Address Usage
 
 This datatype profile is intended for:
 
