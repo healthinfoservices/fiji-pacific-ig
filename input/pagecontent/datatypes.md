@@ -11,11 +11,11 @@ Support for:
 - Customary and ceremonial naming
 - Distinction between 'usual' (social) and 'official' (legal) names
 
-### Structure Definition
+### Structure Definition  
 
 [PacificHumanName](StructureDefinition-pacific-humanname.html)
 
-### Pacific Name Usage
+### Pacific Name Usage  
 
 This datatype profile is intended for:
 
@@ -23,7 +23,7 @@ This datatype profile is intended for:
 - PacificPractitioner.name
 - PacificRelatedPerson.name
 
-## Pacific Address
+## Pacific Address  
 
 The Pacific Address profile supports a range of address formats commonly used in Pacific jurisdictions.
 
@@ -32,16 +32,16 @@ This profile includes commonly required extensions, and general usage guidance.
 Each Pacific Nation adopting this profile should further specify mappings of administrative hierarchies to the specific address fields and provides examples for the IG.
 
 
-### Structure and Extensions
+### Structure and Extensions  
 
 [PacificAddress](StructureDefinition-pacific-address.html)
 
 This includes optional extensions for:  
-[PacificAddressVillage](StructureDefinition-pacific-address-village.html)
-[PacificAddressIsland](StructureDefinition-pacific-address-island.html)
+[PacificAddressVillage](StructureDefinition-pacific-address-village.html)  
+[PacificAddressIsland](StructureDefinition-pacific-address-island.html)  
 
 
-### Pacific Address Usage
+### Pacific Address Usage  
 
 This datatype profile is intended for:
 

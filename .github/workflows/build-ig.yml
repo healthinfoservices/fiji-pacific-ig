@@ -42,7 +42,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ./publisher.jar
-          key: publisher-1.0.0  # bump this if you want to force re-download
+          key: publisher-1.0.1  # bump this if you want to force re-download
 
       # 6. Download publisher.jar if not cached
       - name: Download IG Publisher
