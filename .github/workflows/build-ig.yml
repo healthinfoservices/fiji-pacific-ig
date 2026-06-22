@@ -14,6 +14,18 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
+      - name: Set up Python (for heading numbering script)
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+ 
+      - name: Install script dependencies
+        run: pip install pyyaml
+ 
+      # --- This is the step that solves the section-numbering problem ---
+      - name: Auto-number page headings
+        run: python3 scripts/number_headings.py sushi-config.yaml input/pagecontent
+
       # 1a. Debug info to check if running from a fork
       #- name: Check if running from a fork
       #  run: |
