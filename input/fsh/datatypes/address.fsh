@@ -26,6 +26,8 @@ Recommended mapping of address fields are below but should be specifically defin
 | `extension:island`  | Island                         | Important for logistics        |
 
 Note: clanAffiliation is already an extension in the PacificPatient, PacificProvider profiles so does not need to be duplicated here.
+
+**STATUS**: Proposed - needs further review and consensus from South Pacific stakeholders before finalization.
 """
 
 

@@ -1,5 +1,3 @@
-# Datatype Profiles
-
 This page describes data type profiles used in this implementation guide.
 
 ## Pacific HumanName
@@ -15,9 +13,9 @@ Support for:
 - Customary and ceremonial naming
 - Distinction between 'usual' (social) and 'official' (legal) names
 
-### Structure
+### Structure Definition
 
-{{profile:PacificHumanName}}
+[PacificHumanName](StructureDefinition-pacific-humanname.html)
 
 ### Usage
 
@@ -38,16 +36,14 @@ This profile includes commonly required extensions, and general usage guidance.
 Each Pacific Nation adopting this profile should further specify mappings of administrative hierarchies to the specific address fields and provides examples for the IG.
 
 
-### Extensions
+### Structure and Extensions
 
-Includes optional extensions for:  
-{{StructureDefinition:PacificAddressVillage}}
-{{StructureDefinition:PacificAddressIsland}}
+[PacificAddress](StructureDefinition-pacific-address.html)
 
+This includes optional extensions for:  
+[PacificAddressVillage](StructureDefinition-pacific-address-village.html)
+[PacificAddressIsland](StructureDefinition-pacific-address-island.html)
 
-### Structure
-
-{{profile:PacificAddress}}
 
 ### Usage
 
