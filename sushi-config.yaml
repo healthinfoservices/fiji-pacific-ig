@@ -10,29 +10,19 @@ id: hl7.fhir.uv.pacific.core
 packageId: hl7.fhir.uv.pacific.core
 canonical: https://healthinfoservices.net/fiji-pacific-ig
 name: FijiPacificCore
-title: Fiji Core Implementation Guide
+title: Fiji/Pacific Core Implementation Guide
 description: Implementation Guide for Fiji FHIR Interopeerability with base definitions applicable to the wider South Pacific region.
 status: draft # draft | active | retired | unknown
-version: 0.2.0
+version: 0.2.1
 copyrightYear: 2026+
 releaseLabel: ci-build
-license: MIT
-copyright: Copyright (c) 2026+ Daniel Foulkes, HealthInfoServices.net
+license: CC0-1.0
+copyright: Distributed under the Creative Commons CC0-1.0 License (https://creativecommons.org/publicdomain/zero/1.0/)
 
-# publisher:
-#  name: Example Publisher
-#  url: http://example.org/example-publisher
-#  email: test@example.org
+publisher:
+  name: HealthInfoServices
+  url: https://healthinfoservices.net
 
-# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
-# │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
-# │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
-# │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
-# │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
-# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
-# │ property below.                                                                                │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-# menu structure of the IG
 menu:
   Home: index.html
   Getting Started: gettingstarted.html
@@ -50,24 +40,16 @@ contact:
         value: https://www.healthinfoservices.net
 
 
-
 # leave these settings as is unless you know what you're doing and have a reason to change them
 fhirVersion: 4.0.1
 instanceOptions:
   manualSliceOrdering: true
 
-# dependencies:
-#   hl7.fhir.xx.xx: 9.9.9
-#   hl7.fhir.xx.subxx:
-#     id: xxxx
-#     uri: http://hl7.org/fhir/xxxxx
-#     version: 9.9.9
-
 pages:
   index.md:
-    title: Fiji Core Implementation Guide
+    title: Fiji/Pacific Core Implementation Guide
   gettingstarted.md:
-    title: Contributing to the Fiji Core IG
+    title: Contributing to the Fiji/Pacific Core IG
   datatypes.md:
     title: Data Type Profiles
   resources.md:
